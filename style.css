@@ -153,6 +153,8 @@ header {
     text-align: start;
 }
 
+
+
 .left-side-paragraph button {
     padding: 11px 24px;
     border-radius: 24px;
@@ -175,6 +177,7 @@ header {
 
 .left-side-paragraph a {
     color: #005797;
+    text-underline-position: under;
 }
 
 .section-two-wrapper {
@@ -197,6 +200,12 @@ header {
     font-size: 17px;
     margin: 16px 0px;
     line-height: 1.5;
+}
+
+.st-top a {
+    color: #005797;
+    text-underline-position: under;
+
 }
 
 .img-section img {
@@ -222,12 +231,26 @@ header {
     font-size: 14px;
     border-color: #005797;
     font-weight: 600;
+    border-width: 1px;
+}
+
+.st-btn:hover,
+.right-side-paragraph-btn:hover {
+    background-color: #005797;
+    color: white;
+    cursor: pointer;
+    transition: all 0.4s ease;
 }
 
 .sct-top {
     display: flex;
     justify-content: space-between;
     margin: 100px 0px 0px;
+}
+
+.right-side-paragraph a {
+    color: #005797;
+    text-underline-position: under;
 }
 
 .right-side-paragraph p,
@@ -266,6 +289,7 @@ header {
 .section-four a {
     color: white;
     font-size: 16px;
+    text-underline-position: under;
 }
 
 .cards-box a {
@@ -293,6 +317,10 @@ header {
     /* Check later*/
 }
 
+.cards-box a:hover {
+    text-decoration: underline;
+}
+
 .cards-box h2 {
     font-size: 18px;
 }
@@ -301,6 +329,7 @@ header {
     font-size: 16px;
     margin: 16px 0px;
 }
+
 
 footer {
     padding: 20px 0px 25px;
@@ -316,6 +345,7 @@ footer {
     margin: 0px 10px 0px 0px;
     padding: 12px 2px;
     color: #111111;
+    text-underline-position: under;
 }
 
 .copyright p {
@@ -324,4 +354,5 @@ footer {
 
 .copyright a {
     color: #111111;
+    text-underline-position: under;
 }
